@@ -18,13 +18,12 @@
         _OutEffectWidth ("Out Effect Width", float) = 1
         _OutEffectNoise ("Out Effect Noise", 2D) = "White"{}
         _OutEffectSpeed ("Out Effect Speed", float) = 0.1
-        _OutEffectFeatherValue ("Out Effect Feather value", float) = 0.5
         _DitherIntensity ("Out Effect Dither Intensity", float) = 0.45
     }
     SubShader {
         Tags { "RenderType" = "Transparent" "Queue" = "Transparent" "RenderPipeline" = "UniversalPipeline"}
         Pass {
-            Name "BaseColor"
+            Name "Bady"
             Tags { "LightMode" = "UniversalForward" }
             Stencil {
                 Ref 20

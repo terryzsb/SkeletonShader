@@ -8,7 +8,6 @@ float _BadyFeatherValue;
 float _BadyNoiseSpeed;
 float _FadeoutStart;
 float _FadeoutEnd;
-float _OutEffectFeatherValue;
 float _OutEffectWidth;
 float _OutEffectSpeed;
 float _DitherIntensity;
